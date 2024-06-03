@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lemonada:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'CSS/register.css'%}" type="text/css">
+</head>
+<body>
+    <div class="Logo-register">
+        <a href="{%url 'land' %}">
+            <img class="logo" src="{% static 'Media/testlogo2.png' %}" alt="">
+        </a>
+    </div>
+<section class="section-register">
+    <div class="signup">
+        Sign Up
+    </div>
+
+<form method="POST" action="" class="form-register">
+    {% csrf_token %}
+    <div class="signupdiv">
+        <div class="signupbox">
+            {{ form.non_field_errors }}
+
+            {{ form.username.label_tag }}
+            {{ form.username }}
+            {{ form.username.errors }}
+
+            {{ form.email.label_tag }}
+            {{ form.email }}
+            {{ form.email.errors }}
+
+            {{ form.password1.label_tag }}
+            {{ form.password1 }}
+            {{ form.password1.errors }}
+
+            {{ form.password2.label_tag }}
+            {{ form.password2 }}
+            {{ form.password2.errors }}
+            <button type="submit" class="submit">Register</button>
+        </div>
+    </div>
+    
+</form>
+<div class="button-derect"><a href="#"><button class="Button-Login">Login</button></a></div>
+
+</section>
+    <div class="Copyright">&copy; AnimeMoments all rights reserved</div>
+    <div class="Copyrights">Created by &nbsp;<a href="https://t.me/Boblej">Boble</a></div>
+</body>
+</html>

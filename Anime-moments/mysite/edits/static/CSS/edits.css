@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-size: 24pt;
+  font-family: 'inter';
+  color: white;
+}
+
+.navigate_panel {
+    font-size: 20pt;
+  }
+  
+  .navigate_panel img {
+    height: 150px;
+    width: 150px;
+    margin: 0;
+    margin-left: 10px;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+  
+.editcreated {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+  
+.display {
+    display: flex;
+    justify-content: center;
+}
+
+.video {
+    border-radius: 15px;
+}
+
+ .editbox {
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-radius: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 20px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 250px rgba(255, 255, 255, 0.253) !important;
+
+ }
+
+.text-user {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+ .editbox img {
+    width: 1280px;
+    height: 100%;
+    border-radius: 30px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+  font-family: 'inter';
+  src: url('../fonts/Lemonada-Light.ttf');
+}

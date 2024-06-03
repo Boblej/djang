@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-size: 24pt;
+  font-family: 'inter';
+  color: white;
+}
+
+.Logo-register {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.Logo-register  img {
+    height: 150px;
+    width: 150px;
+}
+
+.section-register {
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-radius: 30px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 30px;
+    box-shadow: 0 0 250px rgba(255, 255, 255, 0.349);
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.signupbox {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column
+}
+.textReg, .textEml, .passwrd {
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 4px;
+  width: 220px;
+  height: 32px;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  font-family: 'inter';
+  font-weight: 600;
+  font-size: 15px;
+  transition: 0.2s ease;
+  background-color: #000000;
+  outline: none;
+  margin-left: 13px;
+  color: white;
+}
+
+.textReg:focus, .textEml:focus, .passwrd:focus {
+  border-bottom: 2px solid #ffffff;
+  color: #ffffff;
+  transition: 0.2s ease;
+}
+
+.submit {
+  margin-top: 28px;
+  width: 120px;
+  height: 32px;
+  background: #ffffff;
+  border: none;
+  border-radius: 15px;
+  color: #000000;
+  font-family: 'inter';
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+
+.submit:hover, .submit:focus {
+  opacity: 0.8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+.submit:active {
+  opacity: 1;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+
+
+.Button-Login {
+    margin-top: 28px;
+    width: 120px;
+    height: 32px;
+    background: #ffffff;
+    border: none;
+    border-radius: 15px;
+    color: #000000;
+    font-family: 'inter';
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.1s ease;
+    cursor: pointer;
+
+}
+
+.button-derect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column
+    margin-left:20000000px;
+}
+
+
+.Button-Login a {
+    text-decoration: none;
+    color: black;
+}
+
+.Copyright {
+  font-size: 12pt;
+  display: flex;
+  justify-content: center;
+  margin-top: 500px;
+  margin-bottom: 20px;
+  color: rgb(88, 88, 88, 0.541);
+}
+
+.Copyrights {
+  font-size: 12pt;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgba(88, 88, 88, 0.541);
+}
+
+.Copyrights a {
+  color: rgb(88, 88, 88, 0.541);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+  font-family: 'inter';
+  src: url('../fonts/Lemonada-Light.ttf');
+}

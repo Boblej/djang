@@ -1,0 +1,251 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'inter';
+    font-size: 24pt;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navigate_panel {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  font-size: 20pt;
+}
+
+.navigate_panel img {
+  height: 150px;
+  width: 150px;
+  margin: 0;
+  margin-left: 10px;
+}
+
+.logo {
+ grid-column:4;
+}
+
+
+.text-edit-anime {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.text-subscribe-anime {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.login {
+    text-align:center;
+    margin-top: 50px;
+    grid-column: 9; 
+  }
+  
+.chooseyourplan {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.Subscribtionday {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.daypayment {
+    padding: 10px;
+}
+
+.summsub {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.shadow {
+    box-shadow: 0 0 250px rgba(165, 165, 165, 0.26);
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-radius: 30px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.buttonsubs {
+    display: flex;
+    justify-content: center;
+}
+
+.chooseplaybutton {
+    background-color: black;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'inter';
+    border-radius: 15px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.chooseplaybutton span::before {
+    box-sizing: border-box;
+    position: absolute;
+    content: "";
+    background: inherit;
+  }
+
+  .chooseplaybutton span{
+    box-sizing: border-box;
+    position: relative;
+    background: inherit;
+  }
+
+.paymentsinfo {
+    display: flex;
+    justify-content: center;
+    font-size: 14pt;
+}
+
+.Copyright {
+    font-size: 12pt;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: rgb(88, 88, 88, 0.541);
+  }
+  
+  .Copyrights {
+    font-size: 12pt;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgba(88, 88, 88, 0.541);
+  }
+  
+  .Copyrights a {
+    color: rgb(88, 88, 88, 0.541);
+    text-decoration: underline;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+  font-family: 'inter';
+  src: url('../fonts/Lemonada-Light.ttf');
+}

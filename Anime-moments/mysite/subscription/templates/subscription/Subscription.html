@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription</title>
+    <link rel="stylesheet" href="{% static 'CSS/subscription.css'%}" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lemonada:wght@300..700&display=swap" rel="stylesheet">    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.theme.min.css">
+</head>
+<body>
+    <header class="navigate_panel">
+        <div class="logo">
+            <a href="{%url 'land' %}">
+                <img src="{% static 'Media/testlogo2.png' %}" alt="">
+            </a>
+        </div>
+        <div class="text-edit-anime">
+           <a href="{%url 'edits' %}">Edits</a>
+        </div>
+        <div class="login">
+            <a href="#">
+                Register
+            </a>
+        </div>
+    </header>
+    <div class="chooseyourplan">choose your plan</div>
+    <div class="Subscribtionday shadow">
+        <div class="daypayment">
+            30 Days
+            <div class="summsub">1,99$</div>
+            <div class="buttonsubs">
+                <button class="chooseplaybutton">
+                    <span>
+                        <a href="" class="sub-button-anim">choose</a>
+                      </span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="Subscribtionday shadow">
+        <div class="daypayment">
+            90 Days
+            <div class="summsub">4.99$</div>
+            <div class="buttonsubs">
+                <button class="chooseplaybutton">
+                    <span>
+                        <a href="" class="sub-button-anim">choose</a>
+                      </span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="Subscribtionday shadow">
+        <div class="daypayment">
+            180 Days
+            <div class="summsub">9.99$</div>
+            <div class="buttonsubs">
+                <button class="chooseplaybutton">
+                    <span>
+                        <a href="" class="sub-button-anim">choose</a>
+                      </span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class=" paymentsinfo"> Russian payments are also supported </div>
+    <div class="Copyright">&copy; AnimeMoments all rights reserved</div>
+    <div class="Copyrights">Created by &nbsp;<a href="https://t.me/Boblej">Boble</a></div>
+</body>
+</html>

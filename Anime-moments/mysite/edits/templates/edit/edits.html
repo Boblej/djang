@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edits</title>
+    <link rel="stylesheet" href="{% static 'CSS/edits.css'%}" type="text/css">
+</head>
+<body>
+    <header class="navigate_panel">
+        <div class="logo">
+            <a href="{%url 'land' %}"> 
+                <img src="{% static 'Media/testlogo2.png' %}" alt="">
+            </a>
+        </div>
+    </header>
+    <div class="display">
+        <div class="editcrated">Edits created from our clips</div>
+    </div>
+<div class="editbox">
+    <div class=" display">
+        <iframe width="1280" height="1080" src="https://www.youtube.com/embed/8M1ogw5N8Hw?si=nGizh1px_BJIV671" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div class="display text-user">Edit by Boblej</div>
+</div>
+
+<div class="editbox">
+    <div class=" display">
+        <img src="{% static 'Media/anime.jng' %}" alt="">
+    </div>
+    <div class="display text-user">Edit by USERNANE</div>
+</div>
+
+<div class="editbox">
+    <div class=" display">
+        <img src="{% static 'Media/anime.jng' %}" alt="">
+    </div>
+    <div class="display text-user">Edit by USERNANE</div>
+</div>
+
+<div class="editbox">
+    <div class=" display">
+        <img src="{% static 'Media/anime.jng' %}" alt="">
+    </div>
+    <div class="display text-user">Edit by USERNAME</div>
+</div>
+</body>
+</html>
